@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+.logo{
+    width: 70px;
+}
+
+body{
+    background-color: #ffedcc;
+    margin: 0;
+}
+
+header, footer{
+    height: 75px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FED4CD;
+}
+    
+footer{
+    height: 120px;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+.redes{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.redes img{
+    width: 30px;
+    height: 30px;
+   color: #592321;
+}
+
+.links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    color: #ff8000;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+a:hover{
+color: #592321;
+font-size: 25px;
+}
+
+a:visited{
+    color: #592321;
+}
+
+
+h1{
+    color: #592321;
+    font-family: gang of three;
+}
+
+p{
+    color: #592321;
+}
+
+.imagenes{
+    width: 90%;
+    height: 600px;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+
+.principal{
+    width: 95%;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.cabecera{
+    margin: 50px auto 0;
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+}
+
+.cabecera ul{
+    display: flex;
+    padding: 0;
+    width: 700%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.cabecera li{
+    list-style: none;
+    width: 100%;
+}
+
+.cabecera img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sliderhead h1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #00ffee;
+}
+
+.imagenes h2{
+font-weight: 400;
+text-align: center;
+padding: 20px 0;
+font-size: 40px;
+color: #592321;
+}
+
+.titulorecom, .titulogaleria{
+    text-align: center;
+}
+
+.animes{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.recomendados img{
+    width: 100%;
+    vertical-align: top;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.recomendados img:hover{
+    filter: blur(1px);
+    transform: rotate(7deg) scale(1);
+}
+
+figure{
+    width: 50%;
+    border: 5px solid #FED4CD;
+    height: 250px;
+}
+
+figcaption{
+    text-align: center;
+    
+}
+
+@keyframes slide{
+0% {margin-left: 0%;}
+15% {margin-left: 0%;}
+
+20% {margin-left: -100%;}
+25% {margin-left: -100%;}
+
+30% {margin-left: -200%;}
+35% {margin-left: -200%;}
+
+40% {margin-left: -300%;}
+45% {margin-left: -300%;}
+
+50% {margin-left: -400%;}
+55% {margin-left: -400%;}
+
+60% {margin-left: -500%;}
+65% {margin-left: -500%;}
+
+70% {margin-left: -600%;}
+75% {margin-left: -600%;}
+
+}
+
